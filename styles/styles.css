@@ -1,0 +1,379 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono", "monospace", "Manrope";
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  background-color: black;
+}
+
+h1,
+h2,
+img,
+p {
+  left: 125px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1400px;
+  background-image: url(../resources/photo_2024.jpg);
+}
+
+.header__img {
+  padding-top: 33px;
+  padding-left: 123px;
+  width: 1400px;
+  background-repeat: no-repeat;
+  height: 765px;
+}
+
+.logo-link {
+  position: absolute;
+  top: 36px;
+  padding: 1px 11px 0px 11px;
+  width: 133px;
+  height: 38px;
+  border-radius: 100px;
+  font-size: 42.41px;
+  font-weight: 700;
+  line-height: 35.14px;
+  letter-spacing: -0.11em;
+  color: #1bff07;
+  background-color: black;
+}
+
+.header-nav {
+  float: right;
+}
+
+.nav {
+  margin-right: 124px;
+  text-align: center;
+}
+
+.nav__link {
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: #ffffff;
+}
+
+.nav__link:hover {
+  color: #1bff07;
+}
+
+.header__taitle {
+  position: absolute;
+  width: 430px;
+  top: 334px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.header__text {
+  position: absolute;
+  width: 951px;
+  top: 466px;
+  bottom: 94px;
+  font-size: 80px;
+  line-height: 70px;
+  color: #1bff07;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.projects-block {
+  height: 72px;
+  margin-bottom: 40px;
+}
+
+.projects__title {
+  position: absolute;
+  margin-bottom: 40px;
+  width: 1048px;
+  font-size: 55px;
+  line-height: 71.5px;
+  color: #ffffff;
+}
+
+.projects__img-Realhome {
+  margin: 0 auto;
+  width: 1150px;
+  height: 550px;
+  background-image: url(../resources/Realhome.png);
+}
+
+.projects__img-GLASS {
+  margin: 0 auto;
+  width: 1150px;
+  height: 550px;
+  background-image: url(../resources/GLASS.png);
+}
+
+.projects__img-Fesiyen {
+  margin: 0 auto;
+  width: 1150px;
+  height: 550px;
+  background-image: url(../resources/Fesiyen.png);
+}
+
+.projects__taitle {
+  position: absolute;
+  margin: 410px 0 0 50px;
+  width: 401px;
+  font-size: 35px;
+  line-height: 45.5px;
+  color: #ffffff;
+}
+
+.projects__text {
+  position: absolute;
+  margin: 461px 0 0 50px;
+  width: 506px;
+  font-size: 30px;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+.projects__link {
+  position: absolute;
+  margin: 80px 0 0 125px;
+  padding: 56px 85px;
+  width: 582px;
+  height: 153px;
+  border-radius: 10px;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  background-color: #1bff07;
+  color: black;
+}
+
+.projects__link:hover {
+  border: 1px solid #1bff07;
+  background-color: black;
+  color: #1bff07;
+}
+
+.competence {
+  margin-top: 386px;
+}
+
+.competence-list {
+  margin-left: 125px;
+}
+
+.competence__taitle {
+  margin-bottom: 48px;
+  font-size: 53px;
+  line-height: 71.5px;
+  color: #ffffff;
+}
+
+.competence-script {
+  margin-bottom: 94px;
+}
+
+.icon {
+  margin-bottom: 8px;
+}
+
+.competence__subtitle {
+  width: 1048px;
+  font-size: 34px;
+  line-height: 53.5px;
+  color: #1bff07;
+}
+
+.competence__text {
+  width: 789px;
+  font-size: 22px;
+  line-height: 24.6px;
+  color: #ffffff;
+}
+
+.solution {
+  margin-top: 150px;
+}
+
+.tasks {
+  margin-left: 125px;
+}
+
+.tasks__website {
+  margin-bottom: 74px;
+  height: 483px;
+}
+
+.tasks__website-last {
+  margin-top: 137px;
+  margin-bottom: 150px;
+  height: 483px;
+}
+
+.tasks__taitle {
+  margin-left: 125px;
+  margin-bottom: 67px;
+  width: 412px;
+  font-size: 35px;
+  line-height: 60.5px;
+  color: #ffffff;
+}
+
+.tasks_img {
+  width: 1150px;
+  height: 200px;
+}
+
+.tasks__taitl {
+  position: absolute;
+  padding: 40px 0 170px 40px;
+  width: 1150px;
+  font-size: 55px;
+  line-height: 71.5px;
+  color: #1bff07;
+  border-radius: 30px;
+  background-color: #191c19;
+  background-repeat: no-repeat;
+}
+
+.tasks__text {
+  margin-top: 127px;
+  margin-left: 40px;
+  position: absolute;
+  width: 749px;
+  font-size: 22px;
+  line-height: 28.6px;
+  color: #ffffff;
+}
+
+.contacts {
+  margin-bottom: 150px;
+}
+
+.contacts-list {
+  display: inline-block;
+  width: 100%;
+  border-radius: 30px;
+  padding: 44px 18px 179px 120px;
+  background-color: #191c19;
+}
+
+.contacts-title {
+  width: 206px;
+  font-size: 35px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.contacts__img {
+  margin: 0px 10px 7px 359px;
+  position: absolute;
+  float: right;
+  width: 916px;
+  height: 717px;
+  border-radius: 30px;
+  background-color: #191c19;
+}
+
+.contacts__inst-btn {
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 145px;
+  color: #ffffff;
+}
+
+.contacts__inst-btn::before {
+  position: absolute;
+  content: "";
+  margin: -13px 0px 0px 34px;
+  width: 76px;
+  height: 76px;
+  background-image: url(../resources/icons8-instagram-100.png);
+  background-size: contain;
+}
+
+.contacts__inst-btn:hover {
+  color: #1bff07;
+}
+
+.contacts__tg-btn {
+  font-size: 60px;
+  line-height: 145px;
+  color: #ffffff;
+}
+
+.contacts__tg-btn::before {
+  position: absolute;
+  content: "";
+  margin: -13px 0px 0px 47px;
+  width: 46px;
+  height: 46px;
+  background-image: url(../resources/icons8-телеграм-24.png);
+  background-size: contain;
+}
+
+.contacts__tg-btn:hover {
+  color: #1bff07;
+}
+
+.contacts__m-btn {
+  font-size: 60px;
+  line-height: 145px;
+  color: #ffffff;
+}
+
+.contacts__m-btn::before {
+  position: absolute;
+  content: "";
+  margin: -22px 0px 0px 34px;
+  width: 66px;
+  height: 66px;
+  background-image: url(../resources/icons8-почта-56.png);
+  background-size: contain;
+}
+
+.contacts__m-btn:hover {
+  color: #1bff07;
+}
+
+.footer {
+  background-color: black;
+  height: 240px;
+}
+
+.footer__taitl {
+  font-family: Manrope;
+  padding: 75px 0px 150px 122px;
+  width: 100%;
+  font-size: 22px;
+  line-height: 30.05px;
+  border-radius: 30px 30px 0 0;
+  background-color: #ffffff;
+}
+
+.footer__subtitle {
+  position: absolute;
+  margin: -82px 0 0 0px;
+  width: 277px;
+  font-family: Manrope;
+  font-size: 20px;
+  line-height: 27.32px;
+  color: #808080;
+}
